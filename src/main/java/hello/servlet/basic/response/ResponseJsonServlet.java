@@ -16,7 +16,6 @@ public class ResponseJsonServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //Content-Type: application/json
         response.setContentType("application/json");
         response.setCharacterEncoding("utf-8");
 
@@ -24,7 +23,6 @@ public class ResponseJsonServlet extends HttpServlet {
         helloData.setUsername("park");
         helloData.setAge(25);
 
-        //{"username":"kim","age":20}
         String result = objectMapper.writeValueAsString(helloData);
         response.getWriter().write(result);
     }

@@ -3,7 +3,6 @@ package hello.servlet.basic.request;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import hello.servlet.basic.HelloData;
 import org.springframework.util.StreamUtils;
-
 import javax.servlet.ServletException;
 import javax.servlet.ServletInputStream;
 import javax.servlet.annotation.WebServlet;
