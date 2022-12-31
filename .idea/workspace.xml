@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-mvc1-2/springmvc/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Study_Spring-MVC2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunManager">
@@ -70,6 +70,7 @@
       <workItem from="1657193814038" duration="1199000" />
       <workItem from="1657251545434" duration="2445000" />
       <workItem from="1657430051836" duration="955000" />
+      <workItem from="1672403702356" duration="151000" />
     </task>
     <servers />
   </component>
